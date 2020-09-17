@@ -1,4 +1,3 @@
-
 def line(deli)
   if array.length >= 1
     newarray = []
