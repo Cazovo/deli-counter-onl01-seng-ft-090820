@@ -17,6 +17,7 @@ def take_a_number(line, new_customer)
     line.push(new_customer)
     position = line.index(new_customer)
     puts "Welcome, #{new_customer}. You are number #{line.length} in line"
+    return name, position
     end
 end
   
