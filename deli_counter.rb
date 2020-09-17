@@ -1,4 +1,4 @@
-def line
+def line(deli)
 counter = 1
     output = "The line is currently:"
     if deli.length == 0 
@@ -10,10 +10,7 @@ counter = 1
         end
         puts output
     end
-en		
-
-
-
+end		
 
 
 def take_a_number(line, new_customer)
