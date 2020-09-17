@@ -1,3 +1,18 @@
+def line
+counter = 1
+    output = "The line is currently:"
+    if deli.length == 0 
+        puts "The line is currently empty."
+    else
+        deli.each do |person| 
+            output += " #{counter}. " + person  
+            counter += 1 
+        end
+        puts output
+    end
+en		
+
+
 
 
 
